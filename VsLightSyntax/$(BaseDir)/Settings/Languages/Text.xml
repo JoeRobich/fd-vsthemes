@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scintilla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languages>
+		<language name="text">
+			<lexer name="cpp" style-bits="7" />
+			<character-class><![CDATA[qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789]]></character-class>
+			<file-extensions>*</file-extensions>
+			<!-- COLORING_START -->
+			<editor-style caret-fore="0x000000" caretline-back="0xECECEC" selection-fore="0x000000" selection-back="0xADD6FF" margin-fore="0xFFFFFF" margin-back="0xFFFFFF" marker-back="0xB6B6B6" colorize-marker-back="true" />
+			<use-styles>
+				<style name="default" fore="0x000000" font="Consolas" size="10" back="0xFFFFFF" bold="false" />
+				<style name="comment" />
+				<style name="commentline" />
+				<style name="commentdoc" />
+				<style name="number" />
+				<style name="word" />
+				<style name="string" />
+				<style name="character" />
+				<style name="uuid" />
+				<style name="preprocessor" />
+				<style name="operator" />
+				<style name="identifier" />
+				<style name="stringeol" />
+				<style name="verbatim" />
+				<style name="regex" />
+				<style name="commentlinedoc" />
+				<style name="word2" />
+				<style name="commentdockeyword" />
+				<style name="commentdockeyworderror" />
+				<style name="globalclass" />
+				<style name="gdefault" fore="0xE6E7E8" />
+				<style name="linenumber" fore="0x2B91AF" />
+				<style name="bracelight" back="0xE2E6D6" />
+				<style name="bracebad" />
+				<style name="controlchar" />
+				<style name="indentguide" fore="0xB6B6B6" />
+				<style name="lastpredefined" />
+			</use-styles>
+			<!-- COLORING_END -->
+		</language>
+	</languages>
+</Scintilla>
