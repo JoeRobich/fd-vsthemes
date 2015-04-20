@@ -15,7 +15,7 @@ UI and Syntax themes inspired by Visual Studio.
 [Releases](https://github.com/JoeRobich/fd-vsthemes/releases/) 
 
 ## History
-**v1.1** - Changed syntax themes to use xml override files.
+**v1.1** - Changed syntax themes to use xml override files.  
 **v1.0** - Updated to work with FD5.  
 **v0.1** - Initial creation  
 
