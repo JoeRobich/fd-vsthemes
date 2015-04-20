@@ -20,20 +20,20 @@ Copy-Item VsDarkSyntax/* Build/VsDarkSyntaxTheme -recurse
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsDarkSyntaxTheme', 'Build\VsDarkSyntaxTheme.fdz');
 
 #Move dark full theme to dark full theme so it will be deployed with other full themes
-New-Item 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Theme/FullThemes' -type directory
-Move-Item Build/VsDarkFullTheme.fdz 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Theme/FullThemes/VsDarkFullTheme.fdz'
+New-Item 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Themes/FullThemes' -type directory
+Move-Item Build/VsDarkFullTheme.fdz 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Themes/FullThemes/VsDarkFullTheme.fdz'
 
 #Copy dark syntax theme to dark full theme so it will be deployed with other syntax themes
-New-Item 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Copy-Item Build/VsDarkSyntaxTheme.fdz 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VsDarkSyntaxTheme.fdz'
+New-Item 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Copy-Item Build/VsDarkSyntaxTheme.fdz 'Build/VsDarkFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VsDarkSyntaxTheme.fdz'
 
 #Recreate dark full theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsDarkFullTheme', 'Build\VsDarkFullTheme.fdz');
 Remove-Item Build/VsDarkFullTheme -recurse
 
 #Move dark syntax theme to dark syntax theme so it will be deployed with other syntax themes
-New-Item 'Build/VsDarkSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Move-Item Build/VsDarkSyntaxTheme.fdz 'Build/VsDarkSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VsDarkSyntaxTheme.fdz'
+New-Item 'Build/VsDarkSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Move-Item Build/VsDarkSyntaxTheme.fdz 'Build/VsDarkSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VsDarkSyntaxTheme.fdz'
 
 #Recreate dark syntax theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsDarkSyntaxTheme', 'Build\VsDarkSyntaxTheme.fdz');
@@ -59,32 +59,32 @@ Copy-Item VsLightSyntax/* Build/VsLightSyntaxTheme -recurse
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsLightSyntaxTheme', 'Build\VsLightSyntaxTheme.fdz');
 
 #Move blue full theme to blue full theme so it will be deployed with other full themes
-New-Item 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Theme/FullThemes' -type directory
-Move-Item Build/VsBlueFullTheme.fdz 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Theme/FullThemes/VsBlueFullTheme.fdz'
+New-Item 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Themes/FullThemes' -type directory
+Move-Item Build/VsBlueFullTheme.fdz 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Themes/FullThemes/VsBlueFullTheme.fdz'
 
 #Copy light syntax theme to blue full theme so it will be deployed with other syntax themes
-New-Item 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Copy-Item Build/VsLightSyntaxTheme.fdz 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VsLightSyntaxTheme.fdz'
+New-Item 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Copy-Item Build/VsLightSyntaxTheme.fdz 'Build/VsBlueFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VsLightSyntaxTheme.fdz'
 
 #Recreate blue full theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsBlueFullTheme', 'Build\VsBlueFullTheme.fdz');
 Remove-Item Build/VsBlueFullTheme -recurse
 
 #Move blue full theme to light full theme so it will be deployed with other full themes
-New-Item 'Build/VsLightFullTheme/$(BaseDir)/Settings/Theme/FullThemes' -type directory
-Move-Item Build/VsLightFullTheme.fdz 'Build/VsLightFullTheme/$(BaseDir)/Settings/Theme/FullThemes/VsLightFullTheme.fdz'
+New-Item 'Build/VsLightFullTheme/$(BaseDir)/Settings/Themes/FullThemes' -type directory
+Move-Item Build/VsLightFullTheme.fdz 'Build/VsLightFullTheme/$(BaseDir)/Settings/Themes/FullThemes/VsLightFullTheme.fdz'
 
 #Copy light syntax theme to light full theme so it will be deployed with other syntax themes
-New-Item 'Build/VsLightFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Copy-Item Build/VsLightSyntaxTheme.fdz 'Build/VsLightFullTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VsLightSyntaxTheme.fdz'
+New-Item 'Build/VsLightFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Copy-Item Build/VsLightSyntaxTheme.fdz 'Build/VsLightFullTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VsLightSyntaxTheme.fdz'
 
 #Recreate light full theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsLightFullTheme', 'Build\VsLightFullTheme.fdz');
 Remove-Item Build/VsLightFullTheme -recurse
 
 #Move light syntax theme to light syntax theme so it will be deployed with other syntax themes
-New-Item 'Build/VsLightSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Move-Item Build/VsLightSyntaxTheme.fdz 'Build/VsLightSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VsLightSyntaxTheme.fdz'
+New-Item 'Build/VsLightSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Move-Item Build/VsLightSyntaxTheme.fdz 'Build/VsLightSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VsLightSyntaxTheme.fdz'
 
 #Recreate light syntax theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VsLightSyntaxTheme', 'Build\VsLightSyntaxTheme.fdz');
