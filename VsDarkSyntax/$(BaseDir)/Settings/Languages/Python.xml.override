@@ -1,0 +1,28 @@
+﻿<!-- COLORING_START -->
+<editor-style caret-fore="0xF1F1F1" caretline-back="0x0F0F0F" selection-fore="0xDCDCDC" selection-back="0x264F78" margin-fore="0x1E1E1E" margin-back="0x1E1E1E" marker-fore="0x1E1E1E" colorize-marker-back="true" />
+<use-styles>
+	<style name="default" fore="0xDCDCDC" font="Consolas" size="10" back="0x1E1E1E" bold="false" />
+	<style name="commentline" fore="0x57A64A" />
+	<style name="number" fore="0xB5CEA8" />
+	<style name="string" fore="0xD69D85" />
+	<style name="character" fore="0xD69D85" />
+	<style name="word" fore="0x429CD6" />
+	<style name="triple" fore="0xD69D85" />
+	<style name="tripledouble" fore="0xD69D85" />
+	<style name="classname" fore="0x45C9B0" />
+	<style name="defname" />
+	<style name="operator" fore="0xB4B4B4" />
+	<style name="identifier" />
+	<style name="commentblock" fore="0x57A64A" />
+	<style name="stringeol" />
+	<style name="word2" />
+	<style name="decorator" fore="0xFF0080" />
+	<style name="gdefault" fore="0x333333" />
+	<style name="linenumber" fore="0x2B91AF" />
+	<style name="bracelight" back="0x0E3A6C" />
+	<style name="bracebad" bold="true" />
+	<style name="controlchar" fore="0xffffff" />
+	<style name="indentguide" fore="0xB6B6B6" />
+	<style name="lastpredefined" fore="0x666666" />
+</use-styles>
+<!-- COLORING_END -->

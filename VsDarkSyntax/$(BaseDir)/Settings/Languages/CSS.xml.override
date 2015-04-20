@@ -1,0 +1,36 @@
+﻿<!-- COLORING_START -->
+<editor-style caret-fore="0xF1F1F1" caretline-back="0x0F0F0F" selection-fore="0xDCDCDC" selection-back="0x264F78" margin-fore="0x1E1E1E" margin-back="0x1E1E1E" marker-fore="0x1E1E1E" colorize-marker-back="true" />
+<use-styles>
+	<style name="default" fore="0xDCDCDC" font="Consolas" size="10" back="0x1E1E1E" bold="false" />
+	<style name="tag" fore="0xD7BA7D" />
+	<style name="class" fore="0xD7BA7D" />
+	<style name="pseudoclass" />
+	<style name="unknown_pseudoclass" />
+	<style name="operator" fore="0xB4B4B4" />
+	<style name="identifier" fore="0x9CDCFE" />
+	<style name="unknown_identifier" fore="0x9CDCFE" />
+	<style name="value" />
+	<style name="comment" fore="0x57A63A" />
+	<style name="id" fore="0xD7BA7D" />
+	<style name="important" fore="0x569CD6" />
+	<style name="directive" />
+	<style name="doublestring" fore="0xD69D85" />
+	<style name="singlestring" fore="0xD69D85" />
+	<style name="identifier2" fore="0x9CDCFE" />
+	<style name="attribute" />
+	<style name="identifier3" fore="0x9CDCFE" />
+	<style name="pseudoelement" />
+	<style name="extended_identifier" fore="0x9CDCFE" />
+	<style name="extended_pseudoclass" />
+	<style name="extended_pseudoelement" />
+	<style name="media" fore="0x429CD6" />
+	<style name="variable" fore="0x99f899" />
+	<style name="gdefault" fore="0x333333" />
+	<style name="linenumber" fore="0x2B91AF" />
+	<style name="bracelight" back="0x0E3A6C" />
+	<style name="bracebad" />
+	<style name="controlchar" />
+	<style name="indentguide" fore="0xB6B6B6" />
+	<style name="lastpredefined" />
+</use-styles>
+<!-- COLORING_END -->
