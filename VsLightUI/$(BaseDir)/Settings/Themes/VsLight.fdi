@@ -4,7 +4,7 @@
 ImageManager.ImageSet=Default
 
 # Default, Large
-VS2005DockPaneStrip.TabSize=Default
+VS2005DockPaneStrip.TabSize=Large
 
 # Default, Block, Rect
 VS2005DockPaneStrip.TabStyle=Rect
@@ -15,6 +15,13 @@ VS2005AutoHideStrip.TabUnderlineColor=#CCCEDB
 
 # Default (Hover), Click
 DockPanel.ShowAutoHideContentOn=Click
+
+ColumnHeader.BackColor=#F5F5F5
+ColumnHeader.TextColor=#1E1E1E
+ColumnHeader.BorderColor=#CCCEDB
+
+ToolStripComboBoxControl.BorderColor=#CCCEDB
+ToolStripTextBoxControl.BorderColor=#CCCEDB
 
 ToolStrip.BorderColor=#EEEEF2
 DockWindow.BorderColor=#EEEEF2
@@ -105,7 +112,7 @@ Panel.BackColor=#F5F5F5
 ### MAIN INTERFACE
 
 QuickFind.ForeColor=#333333
-QuickFind.BackColor=#D6D6D6
+QuickFind.BackColor=#EEEEF2
 
 SplitterControl.BackColor=#EEEEF2
 SplitContainer.BackColor=#EEEEF2
@@ -157,7 +164,7 @@ VS2005DockPaneStrip.ToolBackColor=#EEEEF2
 VS2005DockPaneStrip.ToolActiveBackColor=#F5F5F5
 VS2005DockPaneStrip.DocActiveBackColor=#007ACC
 VS2005DockPaneStrip.DocInactiveBackColor=#EEEEF2
-VS2005DockPaneStrip.TabSeparatorColor=#EEEEF2
+VS2005DockPaneStrip.TabSeparatorColor=#007ACC
 VS2005DockPaneStrip.TabStripColor=#EEEEF2
 
 VS2005AutoHideStrip.ForeColor=#454545
