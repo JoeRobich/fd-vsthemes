@@ -123,7 +123,7 @@ Panel.BackColor=#252526
 
 ### MAIN INTERFACE
 
-QuickFind.ForeColor=#1B293E
+QuickFind.ForeColor=#F1F1F1
 QuickFind.BackColor=#2D2D30
 
 SplitterControl.BackColor=#2D2D30
